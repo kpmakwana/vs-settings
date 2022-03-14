@@ -1,0 +1,101 @@
+{
+  "explorer.confirmDelete": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.editor.enablePreview": false,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "300",
+  // Enable/disable default JavaScript formatter (For Prettier)
+  "javascript.format.enable": false,
+  // Use 'prettier-eslint' instead of 'prettier'. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggestSelection": "first",
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.statusBar.visible": true,
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "html": "html",
+    "javascript": "javascriptreact"
+  },
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.lineHeight": 24,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "workbench.sideBar.location": "left",
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "eslint.alwaysShowStatus": true,
+  "terminal.integrated.rendererType": "dom",
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "react",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.workingDirectories": [],
+  "eslint.codeAction.disableRuleComment": {},
+  "files.associations": {},
+  "git.autofetch": true,
+  "window.zoomLevel": 1,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/css"
+    }
+  ],
+  "git.confirmSync": false,
+  "workbench.iconTheme": "vscode-icons",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnSave": true,
+  "cSpell.userWords": ["adset", "adsets", "navitem", "parms", "webpeek"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.jsxSingleQuote": true,
+  "html.completion.attributeDefaultValue": "singlequotes"
+}
